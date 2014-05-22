@@ -8,7 +8,7 @@
 makeCacheMatrix <- function(x = matrix()) {
         
         m <- NULL                                         ## m is variable that will store the inverse matrix calculation
-        ## m is initialized to NULL
+                                                          ## m is initialized to NULL
         
         set <- function(y) {                              ## set: Caches the value of the initial matrix
                 x <<- y
